@@ -195,6 +195,26 @@ Celebrate your contribution and share it with your friends and followers by goin
 
 You could join our slack team if you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
 
+Password authentication problem:
+
+ GitHub has recently changed their authentication process and now requires a personal access token to push code to a repository. Personal access tokens are like a password, but they can be generated and revoked by the user, and can be scoped to specific permissions.
+
+The error message you received is likely indicating that your Git client is trying to use your password to authenticate with GitHub's servers, but GitHub no longer supports password-based authentication.
+
+The links you provided are good resources for resolving this issue. The first link is the official GitHub documentation for creating a personal access token, which provides detailed instructions on how to create a token and how to use it with Git. The second link is a LinkedIn tutorial that also provides some guidance on how to fix the problem.
+
+You can also follow these steps:
+
+Go to your GitHub profile settings
+Click on Developer Settings
+Click on Personal access tokens
+Click on Generate token
+Give your token a name and set the expiration date
+Select the scopes for the token, and then click on Generate token
+You will be shown the token once. Save it somewhere safe.
+Once you have your token, you can use it in place of your password when prompted for authentication by Git.
+
+It's a good idea to keep your token secret and use it only on the devices you trust.
 Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out [the list of projects in the web app](https://firstcontributions.github.io/#project-list).
 
 ### [Additional material](additional-material/git_workflow_scenarios/additional-material.md)
